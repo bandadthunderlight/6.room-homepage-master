@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./style.css">
+  <title>Frontend Mentor | Room homepage</title>
+</head>
+
+<body onresize="resizeHandler()">
+
+  <section class="homePage-section">
+    <div class="topSide-container">
+
+      <div class="sliderContainer Back1">
+
+        <div class="navbarContainer display-none">
+          <div class="siteLogo"><img src="./images/logo.svg" /></div>
+          <ul class="navbatItems">
+            <li class="navbarItem">home</li>
+            <li class="navbarItem">shop</li>
+            <li class="navbarItem">about</li>
+            <li class="navbarItem">contact</li>
+          </ul>
+        </div>
+
+        <div class="navbarContainer-mobile display-none">
+          <div class="siteLogo"><img src="./images/logo.svg" /></div>
+        </div>
+        <div class="navbarIcon">
+          <img id="hamburgerIcon" src="./images/icon-hamburger.svg" />
+        </div>
+        <ul class="navbatItems-mobile">
+          <img id="hamburgerClose" src="./images/icon-close.svg" />
+          <li class="navbarItem ">home</li>
+          <li class="navbarItem">shop</li>
+          <li class="navbarItem">about</li>
+          <li class="navbarItem">contact</li>
+        </ul>
+
+
+
+      </div>
+
+
+      <div class="firstParagraphContainer">
+        <h1 class="firstParagraphTitle"> Discover innovative ways to decorate</h1>
+        <p class="firstParagraph"> We provide unmatched quality, comfort, and style for property owners across the
+          country.Our experts combine form and function in bringing your vision to life. Create a room in your
+          own style with our collection and make your property a reflection of you and what you love.</p>
+        <div class="firstParagraphSub">
+          <p> SHOP NOW</p><img class="arrow-icon" src="./images/icon-arrow.svg" />
+        </div>
+        <div class="sliderAngleContainer">
+          <div class="left-slider">
+            <img class="sliderAngle" src="./images/icon-angle-left.svg" />
+          </div>
+          <div class="right-slider">
+            <img class="sliderAngle" src="./images/icon-angle-right.svg" />
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="bottomSide-container">
+      <div class="topfotoContainer"></div>
+
+      <div class="secondParagraphContainer">
+        <h1 class="secondParagraphTitle">ABOUT OUR FURNITURE</h1>
+        <p class="secondParagraph"> Our multifunctional collection blends design and function to suit your individual
+          taste.Make each room unique, or pick a cohesive theme that best express your interests and what
+          inspires you. Find the furniture pieces you need, from traditional to contemporary styles
+          or anything in between. Product specialists are available to help you create your dream space.</p>
+      </div>
+
+      <div class="bottomfotoContainer"></div>
+
+  </section>
+
+  <script src="./app.js"></script>
+</body>
+
+</html>
